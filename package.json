@@ -1,0 +1,23 @@
+{
+  "name": "seed",
+  "version": "1.0.0",
+  "description": "seed for start up",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Balakrishnan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "moment-timezone": "^0.5.27",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1",
+    "youtube-dl": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
