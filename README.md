@@ -1,2 +1,2 @@
 # NodejsSeed
-Nodejs project initial setup with Cluster, JWT authentication, Mongo, server different configuration and  user authentication
+Nodejs project initial setup with Cluster, JWT authentication, Mongo database Integration, server different configuration and  user authentication
