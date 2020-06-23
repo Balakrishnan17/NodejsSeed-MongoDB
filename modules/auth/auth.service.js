@@ -9,6 +9,15 @@ const service ={
         } catch (error) {
             throw error
         }
+    },
+
+    getUserByEmail: async(email)=>{
+        try {
+            const saveSeed = await seedModal.find({email:email});
+            return saveSeed
+        } catch (error) {
+            throw error
+        }
     }
 }
 
